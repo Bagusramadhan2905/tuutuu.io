@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background-color: #010101;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar-brand{
+   font-size: 30px;
+   text-align: center;
+   padding: 10px;
+}
+nav li{
+    display: inline;
+    background-color:  #000000; /* Warna latar belakang kotak */
+    padding: 10px; /* Jarak antara teks dan tepi kotak */
+    text-align: left; /* Menyelaraskan teks ke tengah */
+    margin: 30px;
+}
+h2,p{
+    color: #f0f0f0;
+}
+p{
+    font-size: 10px;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+footer li{
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+.card {
+    background-color: rgb(5, 175, 34);
+    border-radius: 0.5rem;
+    border: 0.25rem solid var(--color-dark-25);
+    padding: 1rem;
+    height: fit-content;
+    transition: var(--basic-transition);
+    cursor: default;
+    margin: 10px;
+}
+.card .profile-img {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .card h2,
+.card h3 {
+  font-weight: 200;
+}
+.card-menu .card {
+    padding: 0;
+    overflow: hidden;
+  }
+  .card a{
+    font-size: 10px;
+  }
+  
+  .card-menu .card-content {
+    padding: 1rem;
+    color: #000000;
+  }
+  
+  .card-menu .card img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+  .food-list table th {
+    background-color: var(--color-2);
+  }
+  table, th,
+td {
+  border-color: var(--color-dark-75);
+  border-style: solid;
+}
+table {
+    border-collapse: collapse;
+    border-radius: var(--basic-border-radius);
+    border-width: 0.125rem;
+}
+.list table {
+    width: 100%;
+  }
+  .card .btn,
+.contact-text .btn {
+  padding: 0.25rem 1rem;
+}
+.card:hover {
+    border-color: var(--color-dark-50);
+  }
